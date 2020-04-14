@@ -5,8 +5,8 @@ def fib_digit(n):
     elif n == 1:
         return 1
     else:
-        for i in range(2, n+1):
-            fib_nums.append((fib_nums[-2]+fib_nums[-1]) % 10)
+        for i in range(2, n + 1):
+            fib_nums.append((fib_nums[-2] + fib_nums[-1]) % 10)
     return fib_nums[-1]
 
 
